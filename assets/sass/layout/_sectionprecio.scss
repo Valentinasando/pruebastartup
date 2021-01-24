@@ -1,0 +1,17 @@
+.precios{
+   background-image: url('../../img/bg-price.svg');
+    min-height: 135vh;
+    max-width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat; 
+    padding:30px 3em; 
+    z-index: -1;
+    position: relative; 
+    @media (max-width: 768px) {
+    background-size: cover;
+    background-position: center center;
+    
+    }
+}
+.precios-contenido{
+    width:100%;}
